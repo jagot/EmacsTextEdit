@@ -1,0 +1,20 @@
+#+TITLE: Emacsclient handler for textedit:// URIs
+#+AUTHOR: Stefanos Carlström
+#+EMAIL: stefanos.carlstrom@gmail.com
+
+This simple AppleScript application links =textedit://= URIs to
+Emacsclient, such that clicking a =textedit://= automatically opens
+the corresponding file at the correct location in the already running
+Emacs instance. This is useful for e.g. Lilypond files.
+
+* Installation instructions
+  Simply typing
+  #+BEGIN_SRC sh
+    make install
+  #+END_SRC
+  in the root folder will compile the AppleScript application bundle
+  and install it into your personal =~/Applications/= folder. To
+  uninstall it, simply delete =~/Applications/EmacsTextEdit.app=.
+
+
+License: GPL-v3
