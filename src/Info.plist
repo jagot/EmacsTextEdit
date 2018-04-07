@@ -15,8 +15,10 @@
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
             <key>CFBundleURLName</key>
-            <string>TextEdit URL</string>
+            <string>org.tipota.emacstextedit</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>textedit</string>
